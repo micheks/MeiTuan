@@ -6,4 +6,18 @@
     tools:context=".activity.MainActivity">
 
     <include layout="@layout/home_titlebar_layout" />
+
+    <FrameLayout
+        android:id="@+id/main_fragment_contenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_rgs" />
+
+    <include
+        android:id="@+id/main_bottom_rgs"
+        layout="@layout/home_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
 </RelativeLayout>
