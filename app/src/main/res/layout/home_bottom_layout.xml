@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="70dp"
+    android:layout_height="50dp"
+    android:background="#fffffe"
+    android:paddingTop="5dp"
     android:orientation="horizontal">
 
     <RadioButton
@@ -9,11 +11,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:button="@null"
-        android:checked="true"
         android:drawableTop="@drawable/menu_home_icon"
         android:gravity="center"
         android:text="首页"
-        android:textColor="@color/main_rg_text_color" />
+        android:textColor="@color/main_rg_text_color"
+        android:textSize="@dimen/textsise12" />
 
     <RadioButton
         android:layout_width="0dp"
@@ -23,7 +25,8 @@
         android:drawableTop="@drawable/menu_shops_icon"
         android:gravity="center"
         android:text="商家"
-        android:textColor="@color/main_rg_text_color" />
+        android:textColor="@color/main_rg_text_color"
+        android:textSize="@dimen/textsise12" />
 
     <RadioButton
         android:layout_width="0dp"
@@ -33,7 +36,8 @@
         android:drawableTop="@drawable/menu_my_icon"
         android:gravity="center"
         android:text="我的"
-        android:textColor="@color/main_rg_text_color" />
+        android:textColor="@color/main_rg_text_color"
+        android:textSize="@dimen/textsise12" />
 
     <RadioButton
         android:layout_width="0dp"
@@ -43,7 +47,8 @@
         android:drawableTop="@drawable/menu_most_icon"
         android:gravity="center"
         android:text="更多"
-        android:textColor="@color/main_rg_text_color" />
+        android:textColor="@color/main_rg_text_color"
+        android:textSize="@dimen/textsise12" />
 
 </RadioGroup>
 

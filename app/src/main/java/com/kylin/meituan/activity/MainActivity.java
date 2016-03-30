@@ -19,7 +19,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends FragmentActivity {
 
-    //    @ViewInject(R.id.main_bottom_rgs)
     private RadioGroup mRadioGroup;
     private ArrayList<Fragment> mFragments;
 
@@ -28,7 +27,6 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-//        x.view().inject(this);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
